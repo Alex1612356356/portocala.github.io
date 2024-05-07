@@ -3998,3 +3998,80 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
+.card-inner {
+
+
+
+
+position: relative;
+
+
+
+width: 100%;
+
+
+
+height: 100%;
+
+
+
+text-align: center;
+
+
+
+transition: transform 0.65;
+
+
+
+transform-style: preserve-3d;
+
+
+
+}
+
+.card:hover .card-inner {
+
+
+
+
+
+transform: rotateY(180deg);
+
+
+
+}
+
+
+
+.card-front,
+
+
+
+.card-back {
+
+
+position: absolute;
+
+width: 100%;
+
+
+
+height: 100%;
+
+
+
+-webkit-backface-visibility:
+
+
+
+hidden;
+
+
+
+
+
+backface-visibility: hidden;
+
+}
+
+border-radius: 16px;
