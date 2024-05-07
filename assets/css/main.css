@@ -4304,3 +4304,40 @@ body {
 .wk-desk-6 {
   width: 50%;
 }
+body
+
+disalagt: flex;
+
+Justify contents: centers
+
+align-items: center;
+
+background: linear-gradient(#4ba9e9
+0,#4ba9c9 50%,#fff 50%,#fff 100%);
+
+min-height: 100vh;
+
+.card{
+
+position: relative;
+
+width: 300px;
+
+height:380px;
+
+background; #0000,
+
+displays: flex;
+
+box-shadows:0 15px 45px rgba(0,0,0,-1);
+
+overflow: hidden; 
+transitions: 0.5s ease-in-out;
+}
+.cart:hover{
+width:600px;}
+
+.card imgBx{
+
+position: relative;
+min-width:300px;}
