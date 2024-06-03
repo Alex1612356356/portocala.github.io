@@ -104,38 +104,10 @@ echipe.</p>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="index2.html" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							<div class="language-dropdown">
-<select onchange="setLanguageCookie(this.value); location.reload(true);" style="color: black">
-<option value="de-DE">Deutsch</option>
-<option value="en-US">English</option>
-<option value="es-ES">Español (España)</option>
-<option value="es-MX">Español (LATAM)</option>
-<option value="fr-FR">Français</option>
-<option value="it-IT">Italiano</option>
-<option value="ja-JP">日本語</option>
-<option value="ro-RO">Română</option>
-<option value="tr-TR">Türkçe</option>
-<option value="zh-CN">简体字</option>
-<option value="zh-TW">繁體字</option>
-</select>
-<script>
-  function setLanguageCookie(value)
-  {
-    var c_name = 'language_';
-    var exdays = 5000;
-    var date = new Date();
-    date.setTime(date.getTime()+(exdays*60*60*24*1000));
-    var c_value=escape(value) + ((exdays==null) ? "" : "; expires=" + date.toGMTString());
-    var domainName = "code.org";
-    c_value += "; domain=." + escape(domainName) + "; path=/";
-    document.cookie=c_name + "=" + c_value;
-  }
-</script>
-
-</div>
+							
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Modulo Zero</li><li>Coded with love by Sima Alexandru & Abrudan Alexandru</li>
+							<li>Coded with love by Sima Alexandru</li>
 						</ul>
 					</footer>
 
